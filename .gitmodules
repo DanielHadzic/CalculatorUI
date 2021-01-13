@@ -1,3 +1,0 @@
-[submodule "CalculatorUI/CalculatorEngine"]
-	path = CalculatorUI/CalculatorEngine
-	url = https://github.com/DanielHadzic/CalculatorEngine.git
