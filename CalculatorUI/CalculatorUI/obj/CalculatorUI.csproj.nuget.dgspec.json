@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj": {}
+    "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj": {
+    "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
+        "projectUniqueName": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
         "projectName": "CalculatorUI",
-        "projectPath": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
+        "projectPath": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
         "packagesPath": "C:\\Users\\dhadz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\obj\\",
+        "outputPath": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
