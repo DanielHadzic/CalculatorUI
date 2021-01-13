@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CalculatorEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CalculatorEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorEngine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CalculatorEngine/1.0.0": {
+      "type": "project",
+      "path": "../../CalculatorEngine/CalculatorEngine/CalculatorEngine/CalculatorEngine.csproj",
+      "msbuildProject": "../../CalculatorEngine/CalculatorEngine/CalculatorEngine/CalculatorEngine.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CalculatorEngine >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dhadz\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
+      "projectUniqueName": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
       "projectName": "CalculatorUI",
-      "projectPath": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
+      "projectPath": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\CalculatorUI.csproj",
       "packagesPath": "C:\\Users\\dhadz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dhadz\\source\\repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\obj\\",
+      "outputPath": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorUI\\CalculatorUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -38,7 +57,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {
+              "projectPath": "C:\\Users\\dhadz\\Source\\Repos\\CalculatorUI\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

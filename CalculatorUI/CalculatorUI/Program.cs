@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalculatorEngine;
+using System;
 
 namespace CalculatorUI
 {
@@ -6,6 +7,7 @@ namespace CalculatorUI
     {
         static void Main(string[] args)
         {
+            CalculatorEngine.Engine.Add(3, 5);
             Console.WriteLine("Hello World!");
         }
     }
